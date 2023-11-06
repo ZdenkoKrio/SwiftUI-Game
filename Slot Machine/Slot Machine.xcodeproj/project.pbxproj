@@ -19,6 +19,9 @@
 		C8E10D6B2AF8F582003BF3CF /* casino-chips.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8E10D632AF8F582003BF3CF /* casino-chips.mp3 */; };
 		C8E10D6C2AF8F582003BF3CF /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8E10D642AF8F582003BF3CF /* win.mp3 */; };
 		C8E10D6D2AF8F582003BF3CF /* high-score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8E10D652AF8F582003BF3CF /* high-score.mp3 */; };
+		C8E10D722AF8FBBD003BF3CF /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E10D712AF8FBBD003BF3CF /* LogoView.swift */; };
+		C8E10D762AF8FC00003BF3CF /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E10D752AF8FC00003BF3CF /* Modifiers.swift */; };
+		C8E10D782AF90254003BF3CF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E10D772AF90254003BF3CF /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		C8E10D632AF8F582003BF3CF /* casino-chips.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "casino-chips.mp3"; sourceTree = "<group>"; };
 		C8E10D642AF8F582003BF3CF /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 		C8E10D652AF8F582003BF3CF /* high-score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "high-score.mp3"; sourceTree = "<group>"; };
+		C8E10D712AF8FBBD003BF3CF /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		C8E10D752AF8FC00003BF3CF /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		C8E10D772AF90254003BF3CF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +77,6 @@
 				C8E10D6F2AF8F5C2003BF3CF /* Views */,
 				C8E10D6E2AF8F597003BF3CF /* Sounds */,
 				C8E10D502AF8EA3B003BF3CF /* Slot_MachineApp.swift */,
-				C8E10D522AF8EA3B003BF3CF /* ContentView.swift */,
 				C8E10D542AF8EA3F003BF3CF /* Assets.xcassets */,
 				C8E10D562AF8EA3F003BF3CF /* Preview Content */,
 			);
@@ -104,6 +109,8 @@
 		C8E10D6F2AF8F5C2003BF3CF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C8E10D522AF8EA3B003BF3CF /* ContentView.swift */,
+				C8E10D712AF8FBBD003BF3CF /* LogoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,6 +118,8 @@
 		C8E10D702AF8F5CA003BF3CF /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				C8E10D752AF8FC00003BF3CF /* Modifiers.swift */,
+				C8E10D772AF90254003BF3CF /* Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -193,7 +202,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E10D782AF90254003BF3CF /* Extensions.swift in Sources */,
+				C8E10D762AF8FC00003BF3CF /* Modifiers.swift in Sources */,
 				C8E10D532AF8EA3B003BF3CF /* ContentView.swift in Sources */,
+				C8E10D722AF8FBBD003BF3CF /* LogoView.swift in Sources */,
 				C8E10D512AF8EA3B003BF3CF /* Slot_MachineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
